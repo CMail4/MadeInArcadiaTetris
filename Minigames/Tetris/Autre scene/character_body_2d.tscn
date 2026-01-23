@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyvm02fqa0fdh"]
+
+[ext_resource type="Script" uid="uid://bk01bpng1x37w" path="res://Minigames/Tetris/Autre scene/character_body_2d.gd" id="1_bth7w"]
+
+[sub_resource type="MeshTexture" id="MeshTexture_1jko0"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_bth7w")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("MeshTexture_1jko0")
