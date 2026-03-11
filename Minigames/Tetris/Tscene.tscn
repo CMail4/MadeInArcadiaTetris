@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bil1jd4jcewa2"]
+
+[ext_resource type="Script" uid="uid://bkby40n8cydyq" path="res://Minigames/Tetris/Tgame_manager.gd" id="1_yuju0"]
+
+[node name="Tscene" type="Node2D"]
+script = ExtResource("1_yuju0")
